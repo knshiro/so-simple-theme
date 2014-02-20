@@ -1,10 +1,11 @@
-title:            Site Title
-description:      Describe your website here.
+title:            "Ryoko and Ugo's wedding"
+description:      Awesome wedding youplaboum!
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
+encoding:         UTF-8
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://192.168.1.166:4000
 
 # Owner/author information
 owner:
@@ -26,6 +27,7 @@ owner:
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
 google_verify:      
+google_api_key: AIzaSyDBdzW2v4W7OHc3ZbfBHykznD6X52u8M9M
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
@@ -34,16 +36,17 @@ bing_verify:
 links:
   - title: About
     url: /about/
+  - title: Venue
+    url: /venue/
+  - title: Accomodation
+    url: /accomodation/
+  - title: RSVP
+    url: /rsvp/
   - title: Articles
     url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Tokyo
 future:      true
 pygments:    true
 markdown:    kramdown

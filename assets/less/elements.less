@@ -34,6 +34,11 @@ figure {
   }
   &.half {
     @media @large {
+      .elem {
+        width: 310px;
+        float: left;
+        margin-right: 10px;
+      }
       img {
         width: 310px;
         float: left;
@@ -60,6 +65,16 @@ figure {
 svg:not(:root) {
   overflow: hidden; 
 }
+
+/* Bootstrap Css Map Fix*/
+.map img { 
+    max-width: none;
+}
+/* Bootstrap Css Map Fix*/
+.map label { 
+    width: auto; display:inline; 
+} 
+
 
 // Buttons
 // --------------------------------------------------
