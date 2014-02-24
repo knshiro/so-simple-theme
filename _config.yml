@@ -5,13 +5,13 @@ disqus_shortname:
 search:           true
 encoding:         UTF-8
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://192.168.1.166:4000
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Ugo Bataillard
   avatar:         bio-photo.jpg
-  email:          you@email.com
+  email:          public_at_ugo.me
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -34,10 +34,12 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
+  - title: Home
+    url: /
   - title: Venue
     url: /venue/
+  - title: Gallery
+    url: /gallery/
   - title: Accomodation
     url: /accomodation/
   - title: RSVP
@@ -70,3 +72,18 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+# Internationalization
+rsvp:
+  en:
+    schedule: "The schedule"
+    ceremony: "The ceremony"
+    ceremony_desc: "The ceremony will be held at the \"Salle des mariages\" of La Seyne-sur-mer at 15:00"
+    reception: "The reception"
+    reception_desc: "The reception will be held at [**\"La Magnanerie de Saint Isidore\"**](http://lamagnanerie.eu/) from 18:00"
+  fr:
+    schedule: "Le programme"
+    ceremony: "La ceremonie"
+    ceremony_desc: "La ceremonie aura lieu a la \"Salle des mariages\" de La Seyne-sur-mer a 15:00"
+    reception: "La reception"
+    reception_desc: "La reception aura lieu a [**\"La Magnanerie de Saint Isidore\"**](http://lamagnanerie.eu/) a partir de 18:00"
