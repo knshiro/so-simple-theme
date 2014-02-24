@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: new-page
 permalink: /venue/
 title: Where are we going ?
+image:
+    feature: IMG_6118.jpg
 modified: 2014-02-20
 ---
 <script type="text/javascript">
