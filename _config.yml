@@ -1,6 +1,6 @@
 title:            "Ryoko and Ugo's wedding"
-description:      Awesome wedding youplaboum!
-logo:             site-logo.png
+description:      "August 22nd 2014"
+#logo:             site-logo.png
 disqus_shortname: 
 search:           true
 encoding:         UTF-8
@@ -44,8 +44,8 @@ links:
     url: /accomodation/
   - title: RSVP
     url: /rsvp/
-  - title: Articles
-    url: /articles/
+# - title: Articles
+#    url: /articles/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Tokyo
@@ -74,7 +74,7 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
 # Internationalization
-rsvp:
+venue:
   en:
     schedule: "The schedule"
     ceremony: "The ceremony"
@@ -87,3 +87,24 @@ rsvp:
     ceremony_desc: "La ceremonie aura lieu a la \"Salle des mariages\" de La Seyne-sur-mer a 15:00"
     reception: "La reception"
     reception_desc: "La reception aura lieu a [**\"La Magnanerie de Saint Isidore\"**](http://lamagnanerie.eu/) a partir de 18:00"
+
+rsvp:
+  en:
+    name:           "Full name"
+    email:          "Email"
+    coming_q:       "Coming?"
+    coming:         "Coming"
+    not_coming:     "Not coming"
+    guest_number:   "Number of guests attending including you"
+    address:        "Address"
+    tel:            "Tel"
+  fr:
+    name:           "Nom complet"
+    email:          "Email"
+    coming_q:        "Pourra venir ?"
+    coming:         "Oui"
+    not_coming:     "Non"
+    guest_number:   "Nombre de personne vous inclus"
+    address:        "Adresse"
+    tel:            "Tel"
+

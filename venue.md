@@ -3,7 +3,7 @@ layout: new-page
 permalink: /venue/
 title: Where are we going ?
 image:
-    feature: IMG_6118.jpg
+    feature: IMG_0843.jpg
 modified: 2014-02-20
 ---
 <script type="text/javascript">
@@ -44,14 +44,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 
-# {{site.rsvp.en.schedule}}
+# {{site.venue.en.schedule}}
 
 * 15:00 at the city council
 * 18:00 at the reception
 
-# {{site.rsvp.en.ceremony}}
+# {{site.venue.en.ceremony}}
 
-{{site.rsvp.en.ceremony_desc}}
+{{site.venue.en.ceremony_desc}}
 
 <figure class="half">
   <div id="map-city-council" class="map elem" style="height:0;padding-bottom: 40.25%;"></div>
@@ -60,9 +60,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </figure>
 
 
-# {{site.rsvp.en.reception}}
+# {{site.venue.en.reception}}
 
-{{site.rsvp.en.reception_desc}}
+{{site.venue.en.reception_desc}}
 
 <figure class="half">
   <div id="map-reception" class="map elem" style="height:0;padding-bottom: 40.25%;"></div>
