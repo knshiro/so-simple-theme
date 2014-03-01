@@ -5,7 +5,7 @@ disqus_shortname:
 search:           true
 encoding:         UTF-8
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://knshiro.github.io/wedding
 
 # Owner/author information
 owner:
