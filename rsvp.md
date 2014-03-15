@@ -25,7 +25,7 @@ locale: en
 </label>
 
 <label for="entry_1399220995">
-{{site.rsvp[page.locale].guest_number}} <input type="number" name="entry.1399220995" value="" class="ss-q-short" id="entry_1399220995" dir="auto" aria-label="Number of guest including you  This must be a number greater or equal to 0" aria-required="true" required="" step="any" min="0.0" aria-valuemin="0.0" title="This must be a number greater or equal to 0">
+{{site.rsvp[page.locale].guest_number}} <input type="number" name="entry.1399220995" value="1" class="ss-q-short" id="entry_1399220995" dir="auto" aria-label="Number of guest including you  This must be a number greater or equal to 0" aria-required="true" required="" step="any" min="0.0" aria-valuemin="0.0" title="This must be a number greater or equal to 0">
 </label>
 <label for="entry_1124372142">
 {{site.rsvp[page.locale].address}}:
